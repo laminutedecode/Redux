@@ -11,7 +11,7 @@ export default function Stock() {
 
    const stockCount = useSelector(state => state.stock); 
 
-   // Vous pouvez maintenant utiliser l'action de recharge dans votre composant Stock pour permettre aux utilisateurs de recharger le stock. Ajoutez simplement un nouveau bouton dans votre composant et dispatchez l'action de recharge lorsque ce bouton est cliqué 
+   //  utiliser l'action de recharge dans nos composant pour permettre aux utilisateurs de recharger le stock. Ajoutez simplement un nouveau bouton dans votre composant et dispatchez l'action de recharge lorsque ce bouton est cliqué 
  
 
   return (
