@@ -1,5 +1,5 @@
 {
-  "name": "01.setup",
+  "name": "15-slice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,13 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "immer": "^10.0.3",
+    "@reduxjs/toolkit": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
-    "redux": "^5.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^3.1.0"
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
