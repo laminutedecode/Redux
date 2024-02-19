@@ -7,14 +7,17 @@ import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
 import counterReducer from '../Slice/counterSlice';
 import logger from 'redux-logger';
 
+// Dans cet exemple, process.env.NODE_ENV !== 'production' garantit que Redux DevTools Extension est activée uniquement en mode développement, ce qui est généralement la pratique recommandée pour éviter toute surcharge en production. En mode de production, Redux DevTools Extension est désactivée pour des raisons de performance et de sécurité.
+
 const store = configureStore({
   reducer: {
     counter: counterReducer,
-    // Ajoutez d'autres tranche (slices) ici si nécessaire
+    devTools: process.env.NODE_ENV !== 'production', // Active DevTools seulement en mode développement
   },
   middleware: getDefaultMiddleware => {
     return getDefaultMiddleware().concat(logger);
-  }
+  },
+  
 });
 
 export default store;
