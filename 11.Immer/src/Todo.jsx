@@ -1,4 +1,4 @@
-// Immer est une bibliothèque JavaScript qui facilite la manipulation des données immuables de manière plus intuitive et plus concise. Son objectif principal est de simplifier la gestion de l'immutabilité des données dans des contextes tels que la programmation fonctionnelle et la mise à jour des états dans les applications React ou Redux. Les données immuables sont des données qui, une fois créées, ne peuvent pas être modifiées. En JavaScript, les types primitifs tels que les nombres, les chaînes de caractères et les valeurs booléennes sont immuables. Cela signifie que lorsqu'une variable contenant une valeur primitive est modifiée, elle ne change pas réellement la valeur existante, mais plutôt crée une nouvelle valeur.
+// Immer est une bibliothèque JavaScript qui facilite la manipulation des données immuables de manière plus intuitive et plus concise. Son objectif principal est de simplifier la gestion de l'immutabilité des données dans des contextes tels que la programmation fonctionnelle et la mise à jour des états dans les applications React ou Redux. Les données immuables sont des données qui, une fois créées, ne peuvent pas être modifiées. En JavaScript, les types primitifs tels que les nombres, les chaînes de caractères et les valeurs booléennes sont immuables. Cela signifie que lorsqu'une variable contenant une valeur primitive est modifiée, elle ne change pas réellement la valeur existante, mais plutôt crée une nouvelle valeur. npm i immer
 
 
 // let a = 5;
@@ -65,7 +65,7 @@ function TodoList() {
   );
 }
 
-// App component wrapping with Provider
+
 function App() {
   return (
     <Provider store={store}>

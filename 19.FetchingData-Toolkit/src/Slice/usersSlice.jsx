@@ -14,17 +14,13 @@ export const fetchUsers = createAsyncThunk('users/fetchUsers', async () => {
 
 // Création d'un slice pour gérer l'état des utilisateurs dans le store Redux
 const usersSlice = createSlice({
-  // Nom du slice
   name: 'users',
-  // État initial du slice
   initialState: {
-    users: [], // Liste des utilisateurs
-    status: 'idle', // État actuel (initialisé à 'idle')
-    error: null, // Erreur (initialisé à null)
+    users: [],
+    status: 'idle', 
+    error: null, 
   },
-  // Reducers (vide car nous utilisons uniquement createAsyncThunk pour gérer l'action asynchrone)
   reducers: {},
-  // Gestionnaires d'actions supplémentaires, en fonction du statut de l'action asynchrone
   extraReducers: (builder) => {
     // Gestionnaire pour l'état 'pending' (en attente) de l'action fetchUsers
     builder

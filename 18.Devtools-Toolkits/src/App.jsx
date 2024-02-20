@@ -26,6 +26,3 @@ export default App
 
 // Effectuer des contrôles avancés : Vous pouvez effectuer des contrôles avancés, tels que le filtrage des actions, la comparaison des états, l'enregistrement des sessions, etc.
 
-// Pour utiliser Redux DevTools Extension avec Redux Toolkit, il vous suffit généralement d'installer l'extension dans votre navigateur. Une fois installée, Redux DevTools Extension détectera automatiquement lorsque votre application utilise Redux et commencera à suivre l'état de votre magasin Redux. 
-
-// Lorsque vous utilisez Redux Toolkit, vous pouvez également activer Redux DevTools Extension en passant l'option devTools lors de la configuration de votre magasin : aller dans store

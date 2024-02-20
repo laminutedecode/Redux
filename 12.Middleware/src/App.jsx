@@ -2,7 +2,7 @@
 // redux-logger est un middleware Redux très utile pour le développement. Il permet de journaliser chaque action qui est envoyée dans le store Redux, ainsi que l'état avant et après chaque action. Cette journalisation facilite le débogage en fournissant une trace claire des actions qui se produisent dans l'application, ainsi que des changements d'état correspondants.
 
 
-// Middleware avec Redux est un concept clé dans l'écosystème Redux, qui est une bibliothèque de gestion d'état pour les applications JavaScript, souvent utilisée avec des bibliothèques telles que React. Le middleware permet d'intercepter et de traiter les actions Redux avant qu'elles n'atteignent les reducers, ce qui permet d'effectuer des tâches supplémentaires telles que la gestion des effets secondaires, la journalisation, la gestion de la synchronisation asynchrone
+// Le middleware permet d'intercepter et de traiter les actions Redux avant qu'elles n'atteignent les reducers, ce qui permet d'effectuer des tâches supplémentaires telles que la gestion des effets secondaires, la journalisation, la gestion de la synchronisation asynchrone
 
 // Interception des actions : Lorsqu'une action est envoyée depuis votre application, elle traverse le middleware avant d'atteindre les reducers.
 
